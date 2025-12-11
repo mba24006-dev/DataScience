@@ -1,0 +1,4 @@
+{
+    "numerical_features": ["city_development_index", "training_hours", "experience"],
+    "categorical_features": ["city", "gender", "relevent_experience", "enrolled_university", "education_level", "major_discipline", "company_size", "company_type"]
+}

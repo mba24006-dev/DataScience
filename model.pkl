@@ -1,0 +1,1 @@
+This is a placeholder file for the trained machine learning model. The actual model could not be trained due to a technical limitation in the environment (inability to install scikit-learn).
