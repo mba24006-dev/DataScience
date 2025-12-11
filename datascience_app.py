@@ -13,10 +13,10 @@ sns.set_style("whitegrid")
 # --- Data Cleaning and Preprocessing Functions (Steps 3-5) ---
 
 @st.cache_data
-def load_data(data_science_job.csv):
+def load_data(file_path):
     """Loads the dataset."""
     try:
-        df = pd.read_csv(data_science_job.csv)
+        df = pd.read_csv("data_science_job.csv")
         return df
     except FileNotFoundError:
         st.error(f"Error: File not found at {file_path}. Please ensure the file is in the correct location.")
